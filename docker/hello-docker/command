@@ -1,0 +1,4 @@
+ 1 : docker build -t hello-docker .
+ 2 : docker run -p 3000:3000 -d hello-docker
+ 3 : docker ps
+ 4 : curl localhost:3000
